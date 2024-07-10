@@ -162,7 +162,7 @@ section {
 /* Inspiration section start */
 .inspiration {
   max-width: 1080px;
-  margin: 0 auto;
+  margin: 80px auto;
 }
 
 .inspiration-heading {
@@ -189,4 +189,77 @@ section {
 
 .video-link {
   border-radius: 16px;
+}
+
+/* Target section start */
+
+.target {
+  max-width: 1080px;
+  margin: 140px auto;
+}
+
+.target-heading {
+  color: rgb(13, 19, 33);
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.target-pera {
+  color: rgb(13, 19, 33);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  margin: 21px 136px 45px;
+}
+
+.skills {
+  display: flex;
+  gap: 22px;
+  justify-content: space-around;
+}
+
+.skill {
+  padding: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.skill .title {
+  color: rgb(13, 19, 33);
+  font-size: 22px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.skill .desc {
+  color: rgb(13, 19, 33);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.skill .know-more {
+  color: rgb(13, 19, 33);
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+.html {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.css {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.js {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
 }
