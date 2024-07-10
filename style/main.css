@@ -263,3 +263,62 @@ section {
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
 }
+
+/* support section */
+.support {
+  max-width: 1080px;
+  margin: 40px auto;
+  background: url(../assets/handshake.jpg) no-repeat center center;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 60px 45px 60px 45px;
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.suport-heading {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.support-pera {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.support-box {
+  width: 520px;
+  height: 54px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 19px 20px 19px 20px;
+  outline: none;
+}
+
+.suport-submit {
+  width: 114px;
+  height: 54px;
+  padding: 17px 20px 17px 20px;
+  border-radius: 8px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  background: rgb(255, 255, 255);
+}
+
+.support > div {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
