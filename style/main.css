@@ -89,7 +89,7 @@ header .navbar {
 
 /* Main section start */
 section {
-  margin: 70px 0px;
+  margin: 0px 0px 70px 0px;
 }
 
 /* Why development section */
@@ -265,7 +265,7 @@ section {
 }
 
 /* support section */
-.support {
+#support {
   max-width: 1080px;
   margin: 40px auto;
   background: url(../assets/handshake.jpg) no-repeat center center;
@@ -316,7 +316,7 @@ section {
   background: rgb(255, 255, 255);
 }
 
-.support > div {
+#support > div {
   display: flex;
   gap: 15px;
   justify-content: center;
